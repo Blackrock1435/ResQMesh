@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.ResQMesh" parent="android:Theme.Material.NoActionBar" />
+</resources>

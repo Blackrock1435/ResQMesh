@@ -1,0 +1,37 @@
+PASS  CodecCryptoTest.directEncryptionOnlyRecipientCanRead
+PASS  CodecCryptoTest.groupEncryption
+PASS  CodecCryptoTest.hopAboveMaxRejected
+PASS  CodecCryptoTest.hopChangeKeepsSignatureValid
+PASS  CodecCryptoTest.identityRestore
+PASS  CodecCryptoTest.locationValidation
+PASS  CodecCryptoTest.malformedRejected
+PASS  CodecCryptoTest.oversizedPayloadCannotBeEncoded
+PASS  CodecCryptoTest.roundTripAndVerify
+PASS  CodecCryptoTest.senderIdMustMatchKey
+PASS  CodecCryptoTest.tamperedPayloadOrMaxHopFailsVerification
+PASS  CodecCryptoTest.uniqueIds
+PASS  RelayEngineTest.boundedQueueEvictsLowPriorityKeepsOwnSos
+PASS  RelayEngineTest.concurrentDuplicateDeliveryProcessedOnce
+PASS  RelayEngineTest.duplicateSuppression
+PASS  RelayEngineTest.expiredPacketsRejectedAndPurged
+PASS  RelayEngineTest.fivePhoneChainDeliversAndConfirms
+PASS  RelayEngineTest.groupMessagesAreEncryptedForNonMembersAndReceiptsAreProven
+PASS  RelayEngineTest.hopLimitStopsPropagation
+PASS  RelayEngineTest.invalidAndMalformedPacketsDropped
+PASS  RelayEngineTest.inventorySyncFillsGapsWithoutResendingEverything
+PASS  RelayEngineTest.locationInChatDirectEncrypted
+PASS  RelayEngineTest.peerDisappearsDuringTransferIsRetried
+PASS  RelayEngineTest.pendingWithNoLinksThenRecoversAfterReconnect
+PASS  RelayEngineTest.rateLimitDropsFloods
+PASS  RelayEngineTest.relayAcknowledgmentIsNotDelivery
+PASS  RelayEngineTest.restartKeepsPendingWork
+PASS  RelayEngineTest.retryLimitThenManualRetry
+PASS  RelayEngineTest.sosPriorityAndAcknowledgements
+PASS  RelayEngineTest.spoofedDirectReceiptFromNonDestinationIgnored
+PASS  RelayEngineTest.storeAndForwardAcrossLaterConnection
+PASS  RelayEngineTest.unavailableDestinationExpiresNotDelivered
+PASS  RelayExtraTest.periodicInventoryRecoversLostTransfer
+
+33 passed, 0 failed
+
+(Run in authoring sandbox: Kotlin 2.0.20 compiler + JUnit-compatible shim harness, JDK 21. Re-run with ./gradlew :core:test for real JUnit.)
